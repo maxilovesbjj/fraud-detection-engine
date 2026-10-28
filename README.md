@@ -19,12 +19,12 @@ Repositorio principal de un motor de detección de fraudes transaccionales, dise
 - Procesamiento de alto rendimiento con DuckDB y Pandas.
 - Diseño de reglas duras de negocio.
 
-### Etapa 3: Modelado Avanzado y Explicabilidad (En curso)
+### Etapa 3: Modelado Avanzado y Explicabilidad (Completada)
 - Entrenamiento con XGBoost.
 - Calibración de umbrales de decisión.
 - Explicabilidad de inferencias usando SHAP.
 
-### Etapa 4: Despliegue en Producción
+### Etapa 4: Despliegue en Producción (En curso)
 - Serialización del motor con Joblib.
 - Creación de microservicio API con FastAPI.
 - Interfaz de operador BPO con React.
