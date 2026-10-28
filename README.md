@@ -23,6 +23,12 @@ El flujo de datos está diseñado lógicamente como un sistema de tuberías, min
 
 ---
 
+## Pruebas de Estrés (Testing)
+
+El repositorio incluye una suite de pruebas en el directorio `/tests` para validar el comportamiento del microservicio en producción. Los tests simulan la inyección de transacciones limpias y ataques anómalos, alterando específicamente las variables de mayor peso predictivo descubiertas en el análisis SHAP (V14 y V4) y forzando desviaciones en el caudal de gasto histórico.
+
+---
+
 ## Resultados Técnicos
 
 La calibración de los pesos matemáticos (`scale_pos_weight` = 577.29) sobre el motor XGBoost arrojó las siguientes métricas sobre el conjunto de validación:
