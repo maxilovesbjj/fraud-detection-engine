@@ -1,6 +1,6 @@
 ﻿# Fraud Detection Engine (BPO)
 
-Repositorio principal del motor de detección de fraudes, diseñado bajo arquitectura de microservicios para AvosTech.
+Repositorio principal de un motor de detección de fraudes transaccionales, diseñado bajo una arquitectura de microservicios orientada a operaciones BPO (Business Process Outsourcing) en el sector financiero.
 
 ## Arquitectura de Datos
 * \data/raw/\: Datos crudos inmutables.
