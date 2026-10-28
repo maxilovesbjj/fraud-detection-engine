@@ -24,8 +24,7 @@ Repositorio principal de un motor de detección de fraudes transaccionales, dise
 - Calibración de umbrales de decisión.
 - Explicabilidad de inferencias usando SHAP.
 
-### Etapa 4: Despliegue en Producción (En curso)
+### Etapa 4: Despliegue en Producción (Completada)
 - Serialización del motor con Joblib.
 - Creación de microservicio API con FastAPI.
-- Interfaz de operador BPO con React.
-- Contenerización con Docker.
+- Contenerización con Docker (Dockerfile listo para despliegue).
