@@ -35,7 +35,7 @@ La calibración de los pesos matemáticos (`scale_pos_weight` = 577.29) sobre el
 
 * **Recall (85%):** El modelo captura exitosamente a 85 de cada 100 transacciones fraudulentas.
 * **Precisión (89%):** De cada 100 alertas derivadas a los analistas, 89 son fraudes reales confirmados.
-* **Exactitud Global (Accuracy):** 100% sobre un total de 56,962 transacciones evaluadas.
+* **Exactitud Global (99.9% sobre 56.962 transacciones):** Métrica no representativa dado el desbalance extremo; la calibración operativa se centró en maximizar Recall y Precisión.
 
 ---
 
